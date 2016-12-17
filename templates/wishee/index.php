@@ -80,8 +80,6 @@ $config = JFactory::getConfig();
             </div><!-- /.container -->
         </div>
         
-        <div><p>Some text in here</p></div>
-        
         <footer>
             <jdoc:include type="modules" name="footer-menu" />
             <?php echo '&copy; ' . $config->get('sitename') . ' ' . date('Y'); ?>
